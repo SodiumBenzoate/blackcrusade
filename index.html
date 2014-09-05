@@ -1,18 +1,52 @@
-<!--DOCTYPE html-->
+<!DOCTYPE html>
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<title></title>
 	</head>
 	<body>
-	<div id="header"></div>
+	<div id="header">
+	<h2>Kevin is Silly</h2>
+	</div>
 	<div class="left"></div>
 	<div class="right">
 	<?php
 	
+	/* initialise stats */
+	$agy = rand(1,15);
+	$str = rand(1,15);
+	$int = rand(1,15);
+	$stam = rand(1,15);
 	
 	
-	/>
+	/*
+	for ($i = 0; $i < $length; $i++) {
+        $characterStats[$i] = rand(1,10);
+		echo $characterStats[$i];
+      }
+	*/
+	
+	echo 'Agility is ' . $agy . '<br />';
+	echo 'Strength is ' . $str . '<br />';
+	echo 'Intellect is ' . $int . '<br />';
+	echo 'Stamina is ' . $stam . '<br />';
+	
+	/*
+	foreach($characterStats as $holder) {
+		$holder = rand(1,10);
+		echo $holder;
+	}
+	
+	foreach ($characterStats as $value => $name) {
+		echo $name . ' is ' . $value;
+	}
+	
+	/******************Button
+	$form = newt_form();
+	$ok_button = newt_button(5, 12, "Run Tool");
+    newt_form_add_component($form, $ok_button);
+	*/
+	?>
 	
 	
 	</div>
